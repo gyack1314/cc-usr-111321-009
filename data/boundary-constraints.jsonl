@@ -1,0 +1,3 @@
+{"id": "k1", "kind": "same", "left": "c0", "right": "c1"}
+{"id": "k2", "kind": "different", "left": "c1", "right": "c4"}
+{"id": "k3", "kind": "different", "left": "c0", "right": "c1"}

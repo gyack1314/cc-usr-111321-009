@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "tables": {
+    "customers": {
+      "file": "boundary-customers.jsonl",
+      "sha256": "467fe4a550fed107e3c96cff08bae5bceda9b5ab8848e40197e9e20115096a0b",
+      "bytes": 551,
+      "rows": 6,
+      "fields": [
+        "id",
+        "group",
+        "revenue",
+        "sector",
+        "needs"
+      ]
+    },
+    "constraints": {
+      "file": "boundary-constraints.jsonl",
+      "sha256": "620815fac97c0a6c832d75ff12c9a4c806889be97e0c821cb5d717387572791a",
+      "bytes": 184,
+      "rows": 3,
+      "fields": [
+        "id",
+        "left",
+        "right",
+        "kind"
+      ]
+    },
+    "capacity": {
+      "file": "boundary-capacity.jsonl",
+      "sha256": "cf430ebb8555272c260ccdcb164cf76d99981780ad239fd133dd2eb32d0f9858",
+      "bytes": 87,
+      "rows": 1,
+      "fields": [
+        "id",
+        "min_groups",
+        "max_groups",
+        "min_members",
+        "max_members"
+      ]
+    }
+  }
+}

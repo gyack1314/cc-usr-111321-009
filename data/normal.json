@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "tables": {
+    "customers": {
+      "file": "normal-customers.jsonl",
+      "sha256": "467fe4a550fed107e3c96cff08bae5bceda9b5ab8848e40197e9e20115096a0b",
+      "bytes": 551,
+      "rows": 6,
+      "fields": [
+        "id",
+        "group",
+        "revenue",
+        "sector",
+        "needs"
+      ]
+    },
+    "constraints": {
+      "file": "normal-constraints.jsonl",
+      "sha256": "7cf49a1a9cb01ee130d5fc6feb7a6f4b761d64459dbf0a40870f4819988c15f3",
+      "bytes": 121,
+      "rows": 2,
+      "fields": [
+        "id",
+        "left",
+        "right",
+        "kind"
+      ]
+    },
+    "capacity": {
+      "file": "normal-capacity.jsonl",
+      "sha256": "cf430ebb8555272c260ccdcb164cf76d99981780ad239fd133dd2eb32d0f9858",
+      "bytes": 87,
+      "rows": 1,
+      "fields": [
+        "id",
+        "min_groups",
+        "max_groups",
+        "min_members",
+        "max_members"
+      ]
+    }
+  }
+}

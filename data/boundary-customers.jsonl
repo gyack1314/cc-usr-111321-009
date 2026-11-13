@@ -1,0 +1,6 @@
+{"group": "g0", "id": "c0", "needs": ["material", "testing"], "revenue": 10, "sector": "chemical"}
+{"group": "g0", "id": "c1", "needs": ["testing"], "revenue": 15, "sector": "chemical"}
+{"group": "g1", "id": "c2", "needs": ["material", "testing"], "revenue": 20, "sector": "chemical"}
+{"group": "g1", "id": "c3", "needs": ["testing"], "revenue": null, "sector": "power"}
+{"group": "g2", "id": "c4", "needs": ["material", "testing"], "revenue": 30, "sector": "power"}
+{"group": "g2", "id": "c5", "needs": ["testing"], "revenue": 35, "sector": "power"}
